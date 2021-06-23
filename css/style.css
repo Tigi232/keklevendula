@@ -3,7 +3,7 @@ body {
 	margin: 0 !important;
 }
 header { /*Fejléc, és a hozzá tartozó Logó*/
-	background: url('./img/logo.svg') center no-repeat;
+	background: url('.../img/logo.svg') center no-repeat;
 	background-size: auto 240px;
 	width: 500px;
 	height: 300px;
