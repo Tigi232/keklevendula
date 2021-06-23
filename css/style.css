@@ -3,11 +3,8 @@ body {
 	margin: 0 !important;
 }
 header { /*Fejléc, és a hozzá tartozó Logó*/
-<<<<<<< HEAD
-	background: url('/logo.svg') center no-repeat;
-=======
-	background: url('keklevendula/img/logo.svg') center no-repeat;
->>>>>>> 34235653e342921c4d2648c1f8c4d2cb39fb05a8
+
+	background: url('logo.svg') center no-repeat;
 	background-size: auto 240px;
 	width: 500px;
 	height: 300px;
