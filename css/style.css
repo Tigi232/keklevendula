@@ -1,0 +1,61 @@
+body {
+	font-family: sans-serif;
+	margin: 0 !important;
+}
+header { /*Fejléc, és a hozzá tartozó Logó*/
+	background: url('../img/logo.svg') center no-repeat;
+	background-size: auto 240px;
+	width: 500px;
+	height: 300px;
+	margin: auto; 
+}
+nav {
+	background-color: #afa2dd;
+	padding: 1px;
+}
+h1 {
+	text-align: center;
+	color: white;
+}
+.profil { /*Profilképekhez tartozó beállítások*/
+	display: block;
+	width: 200px;
+	float: left;
+	padding: 0px 30px 0px 0px;
+}
+h2 {
+	font-size: 25pt;
+	display: inline-block;
+	margin: 0px 0px 20px 0px;
+}
+h3 {
+	text-align: justify;
+	display: inline;
+	line-height: 32px;
+	font-style: italic;
+}
+h4 {
+	color: white;
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+.card { /*kártyákhoz tartozó beállítások*/
+	background-color: #afa2dd; 
+	width: 60%;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+.card:hover {
+	background-color: #b7a9ea;
+}
+ul { /*ul-t használtam a fb-twitter ikonokhoz, hogy középen maradjanak egymás mellett, másképp nem működött*/
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+}
+footer {
+	background-color: #afa2dd;
+}
